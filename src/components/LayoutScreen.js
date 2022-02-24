@@ -2,7 +2,7 @@ import React from 'react'
 
 export const LayoutScreen = ({children, background}) => {
   return (
-    <main className={`w-screen h-screen ${background && background}`}>
+    <main className={`relative w-screen min-h-screen bg-no-repeat bg-cover ${background && background}`}>
         {children}
     </main>
   )

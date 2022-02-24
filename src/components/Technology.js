@@ -1,7 +1,11 @@
 import React from 'react'
+import { Navbar } from './Navbar'
 
 export const Technology = () => {
   return (
-    <div>Technology</div>
+    <>
+      <Navbar />
+      <div>Technology</div>
+    </>
   )
 }

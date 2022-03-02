@@ -4,7 +4,6 @@ import { Destination } from './components/Destination'
 import { Home } from './components/Home'
 import { Technology } from './components/Technology'
 import { BrowserRouter, Navigate,Route, Routes } from 'react-router-dom';
-import { Navbar } from './components/Navbar';
 
 
 export const App = () => {

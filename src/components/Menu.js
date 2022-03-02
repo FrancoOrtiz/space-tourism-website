@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Close } from '../assets/shared/close'
 
 export const Menu = () => {
   return (

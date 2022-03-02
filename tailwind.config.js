@@ -5,10 +5,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'home-desktop': "url(./assets/home/background-home-desktop.jpg)",
-        'home-mobile': "url(./assets/home/background-home-mobile.jpg)",
-        'destination-desktop': "url(./assets/destination/background-destination-desktop.jpg)",
-        'destination-mobile': "url(./assets/destination/background-destination-mobile.jpg)",
+        'home-desktop': "url(../public/assets/home/background-home-desktop.jpg)",
+        'home-mobile': "url(../public/assets/home/background-home-mobile.jpg)",
+        'destination-desktop': "url(../public/assets/destination/background-destination-desktop.jpg)",
+        'destination-mobile': "url(../public/assets/destination/background-destination-mobile.jpg)",
       })
     },
     fontFamily: {

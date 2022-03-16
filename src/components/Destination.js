@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react'
 import { DestInfo } from './DestInfo'
 import { LayoutScreen } from './LayoutScreen'
 import { Navbar } from './Navbar'

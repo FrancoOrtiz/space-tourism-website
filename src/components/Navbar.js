@@ -13,11 +13,9 @@ export const Navbar = () => {
     setIsOpen(!isOpen);
   }
 
-  console.log(isOpen)
-
   return (    
     <>
-        <header className="relative z-50 flex w-full m-auto items-center justify-between pt-10 pl-6 pr-6 lg:pl-12 lg:pr-0">
+        <header className="relative flex w-full items-center justify-between pt-10 pr-6 pl-6 lg:pl-14 lg:pr-0">
           <Logo /> 
           <nav className="hidden w-3/5 h-24 gap-10 relative backdrop-blur-[98px] lg:flex items-center lg:after:absolute lg:after:h-0.5 lg:after:w-3/5 lg:after:bg-gray-700 lg:after:-left-2/4 justify-center font-barlowCon tracking-widest">
             <Link to="/" className="text-gray-300 relative text-sm hover:after:h-1 hover:after:w-full hover:after:bg-white hover:after:absolute hover:after:bottom-0 h-full flex items-center hover:after:rounded-2xl"><span className="text-white mr-2 text-sm font-semibold hidden lg:inline">00</span>HOME</Link>

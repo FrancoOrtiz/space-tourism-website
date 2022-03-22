@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { DestInfo } from './DestInfo'
+import { DestInfo } from '../data/DestInfo'
 import { LayoutScreen } from './LayoutScreen'
 import { Navbar } from './Navbar'
 

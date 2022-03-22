@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react/cjs/react.development'
-import { LaunchInfo } from './LaunchInfo'
+import { LaunchInfo } from '../data/LaunchInfo'
 import { LayoutScreen } from './LayoutScreen'
 import { Navbar } from './Navbar'
 

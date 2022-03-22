@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react/cjs/react.development'
-import { CrewInfo } from './CrewInfo'
+import { CrewInfo } from '../data/CrewInfo'
 import { LayoutScreen } from './LayoutScreen'
 import { Navbar } from './Navbar'
 
@@ -25,7 +25,7 @@ export const Crew = () => {
             }
           </div>
         </div>
-        <div className="w-full h-56 lg:h-[702px] flex justify-center lg:w-2/4 order-2 border-b-[1px] border-gray-500">
+        <div className="w-full h-56 lg:h-[702px] flex justify-center lg:w-2/4 order-2 border-b-[1px] border-gray-500 lg:border-b-0">
           <img className="h-full" src={CrewInfo[crew].img} alt="crew"></img>
         </div>
       </div>

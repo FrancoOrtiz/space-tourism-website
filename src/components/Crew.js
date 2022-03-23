@@ -16,7 +16,7 @@ export const Crew = () => {
         <div className="flex flex-col order-3 lg:order-2 gap-6 w-full text-center lg:text-left lg:w-2/5 lg:mt-44 ">
           <span className="text-gray-400 text-xl lg:text-3xl font-bellefair">{CrewInfo[crew].task}</span>
           <h1 className="font-bellefair text-3xl lg:text-5xl">{CrewInfo[crew].name}</h1>
-          <p className="text-gray-400 mt-2 leading-8 lg:pr-10 lg:h-40 ">{CrewInfo[crew].desc}</p>
+          <p className="mt-2 leading-8 lg:pr-10 lg:h-40 text-gray-light">{CrewInfo[crew].desc}</p>
           <div className="flex justify-center lg:justify-start order-first lg:order-last lg:absolute lg:bottom-20 gap-5">
             { 
               CrewInfo.map((crewMember, index) => {

@@ -21,7 +21,9 @@ module.exports = {
         'spaceport-mobile': "url(../public/assets/technology/image-spaceport-landscape.jpg)",
       }),
       colors: {
-        'grayLight': '#D0D6F9',
+        gray: {
+          light: '#D0D6F9',
+        }
       }
     },
     fontFamily: {

@@ -20,7 +20,7 @@ export const Technology = () => {
           <button onClick={() => setLaunch(1)} className={`h-11 lg:h-20 w-11 lg:w-20 lg:text-4xl font-bellefair border-[1px] border-gray-500 rounded-full text-white ${launch === 1 ? 'bg-white text-black' : 'text-white' }`}>2</button>
           <button onClick={() => setLaunch(2)} className={`h-11 lg:h-20 w-11 lg:w-20 lg:text-4xl font-bellefair border-[1px] border-gray-500 rounded-full text-white ${launch === 2 ? 'bg-white text-black' : 'text-white' }`}>3</button>
         </div>
-        <div className="text-center lg:text-left w-[85%] lg:px-20 leading-7 text-grayLight m-auto mt-8 flex flex-col gap-1 lg:gap-3">
+        <div className="text-center lg:text-left w-[85%] lg:px-20 leading-7 text-gray-light m-auto mt-8 flex flex-col gap-1 lg:gap-3">
           <span>THE TERMINOLOGY...</span>
           <h1 className="text-white text-3xl lg:text-6xl font-bellefair">{LaunchInfo[launch].name}</h1>
           <p className="mt-4 lg:pr-[90px]">{LaunchInfo[launch].desc}</p>

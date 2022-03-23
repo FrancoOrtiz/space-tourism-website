@@ -17,12 +17,12 @@ export const Destination = () => {
           <div className="flex h-12 gap-6 lg:h-14 items-center justify-center lg:justify-start mt-4 lg:mt-0 m-auto">
             { 
               DestInfo.map((destination, index) => {
-                return <span key={destination.id} onClick={() => setPick(destination.id)} className={`cursor-pointer tracking-widest relative h-full flex items-center  ${pick === index ? 'text-white after:h-1 after:left-0 after:w-full after:bg-white after:absolute after:bottom-0 after:rounded-2xl' : 'text-gray-400'}`}>{destination.name}</span>
+                return <span key={destination.id} onClick={() => setPick(destination.id)} className={`cursor-pointer tracking-widest relative h-full flex items-center  ${pick === index ? 'text-white after:h-1 after:left-0 after:w-full after:bg-white after:absolute after:bottom-0 after:rounded-2xl' : 'text-gray-light'}`}>{destination.name}</span>
               })
             }
           </div>
-          <h2 className="font-bellefair mt-6 text-center lg:text-left text-6xl lg:text-9xl w-full">{DestInfo[pick].name}</h2>
-          <p className="text-gray-400 h-32 mt-2 text-center lg:text-left">{DestInfo[pick].desc}</p> 
+          <h2 className="font-bellefair mt-6 text-center lg:text-left text-6xl lg:text-8xl w-full">{DestInfo[pick].name}</h2>
+          <p className="text-gray-light h-32 mt-2 text-center lg:text-left">{DestInfo[pick].desc}</p> 
           <div className="flex flex-col text-center lg:text-left lg:flex-row border-t-gray-700 border-solid border-t-2 rounded-sm gap-8 lg:gap-16 mt-10 pt-4">
             <div className="">
               <span className="text-gray-400 text-sm">AVG. DISTANCE</span>

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Close } from '../shared/close'
-import { Hamburger } from '../shared/hamburger'
-import { Logo } from '../shared/logo'
+import { Close } from './svg/close'
+import { Hamburger } from './svg/hamburger'
+import { Logo } from './svg/logo'
 import { Menu } from './Menu'
 
 export const Navbar = () => {

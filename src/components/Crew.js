@@ -20,13 +20,13 @@ export const Crew = () => {
           <div className="flex justify-center lg:justify-start order-first lg:order-last lg:absolute lg:bottom-20 gap-5">
             { 
               CrewInfo.map((crewMember, index) => {
-                return <button key={crewMember.id} onClick={() => setCrew(crewMember.id)} className={`h-3 w-3 lg:h-4 lg:w-4 rounded-full ${crew === index ? "bg-white" : 'bg-gray-500'}`}></button>
+                return <button key={crewMember.id} onClick={() => setCrew(crewMember.id)} className={`h-3 w-3 lg:h-4 lg:w-4 rounded-full ${crew === index ? "bg-white" : 'bg-gray-500'}`} /> 
               })
             }
           </div>
         </div>
         <div className="w-full h-56 lg:h-[702px] flex justify-center lg:w-2/4 order-2 border-b-[1px] border-gray-500 lg:border-b-0">
-          <img className="h-full" src={CrewInfo[crew].img} alt="crew"></img>
+          <img className="h-full" src={CrewInfo[crew].img} alt="crew"/>
         </div>
       </div>
     </LayoutScreen>

@@ -12,7 +12,7 @@ export const Destination = () => {
       <Navbar />
       <p className="text-white text-lg text-center lg:text-left lg:text-2xl tracking-widest lg:pl-48 mt-14 "><span className="mr-2 lg:mr-6 text-gray-500 font-bold">01</span> PICK YOUR DESTINATION</p>
       <div className="flex flex-col lg:flex-row w-9/12 justify-between m-auto mt-8 lg:mt-20">
-        <img src={DestInfo[pick].img} className="" alt="moon"></img>
+        <img src={DestInfo[pick].img} className="" alt="moon"/>
         <div className="text-white w-full lg:w-2/5 ">
           <div className="flex h-12 gap-6 lg:h-14 items-center justify-center lg:justify-start mt-4 lg:mt-0 m-auto">
             { 
